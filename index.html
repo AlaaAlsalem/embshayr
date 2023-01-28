@@ -7,28 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
     <title>الشيخة الروحانية أم البشاير - الشيخة الروحانية أم بشاير</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" >
         <div class="main">
             <img id="m_img1" src="./images/logo.png" alt="image1">
             <img id="m_img2" src="./images/bnar.png" alt="image2">
         </div>
-        <div class="slider-container">
-            <div class="slider">
-
-                <img src="./images/01.png" alt="slider1">
-                <img src="./images/02.png" alt="slider2">
-                <img src="./images/03.png" alt="slider3">
-                <img src="./images/04.png" alt="slider4">
-                <img src="./images/05.png" alt="slider5">
-                <img src="./images/06.png" alt="slider6">
-
+        <div class="test">
+            <div class="your-class">
+                <img src="./images/08.png" alt="image1">
+               <img src="./images/09.png" alt="image2">
+              <img src="./images/10.png" alt="image3">
+              <img src="./images/11.png" alt="image3">
+             <img src="./images/12.png" alt="image3">
+              <img src="./images/07.png" alt="image3">
             </div>
-            <button class="prev-btn">Previous</button>
-            <button class="next-btn">Next</button>
         </div>
         <hr>
            <div class="border1">
@@ -115,24 +115,33 @@
         </div>
     </div>
 </div>
-
+<div class="test test2">
+    <div class="your-class">
+        <img src="./images/01.png" alt="image1">
+       <img src="./images/02.png" alt="image2">
+      <img src="./images/04.png" alt="image3">
+      <img src="./images/05.png" alt="image3">
+     <img src="./images/06.png" alt="image3">
+      <img src="./images/07.png" alt="image3">
+    </div>
+</div>
 <!--
 
--->
+
 <div class="slider-container">
     <div class="slider">
 
-        <img src="./images/01.png" alt="slider1">
-        <img src="./images/02.png" alt="slider2">
-        <img src="./images/03.png" alt="slider3">
-        <img src="./images/04.png" alt="slider4">
-        <img src="./images/05.png" alt="slider5">
-        <img src="./images/06.png" alt="slider6">
+        <img src="./images/01.png" alt="slider1 slide">
+        <img src="./images/02.png" alt="slider2 slide">
+        <img src="./images/03.png" alt="slider3 slide">
+        <img src="./images/04.png" alt="slider4 slide">
+        <img src="./images/05.png" alt="slider5 slide">
+        <img src="./images/06.png" alt="slider6 slide">
 
     </div>
     <button class="prev-btn">Previous</button>
     <button class="next-btn">Next</button>
-</div>
+</div>-->
 <div class="whatsapp-btns">
     <a href="https://api.whatsapp.com/send?phone=+84 82 848 2621&text=Hello!%20I%20would%20like%20to%20make%20a%20call" class="whatsapp-btn call">
       <i class="fa fa-phone"></i>
@@ -143,12 +152,30 @@
       
     </a>
   </div>
+  <footer dir='rtl'  lang='ar'>
+<h1> جميع الحقوق محفوضة</h1>
+  </footer>
   
 
 </div>
+
+
     <!--<script src="./index.js"></script>-->
 
+    
+      
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.your-class').slick({
+                slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+        });
+    </script>
 </body>
-<script src="./index.js"></script>
+<!--<script src="./index.js"></script>-->
 
 </html>

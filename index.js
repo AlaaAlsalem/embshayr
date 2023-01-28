@@ -1,4 +1,4 @@
-/*// Select the slider element and the buttons
+// Select the slider element and the buttons
 const slider = document.querySelector('.slider');
 const prevBtn = document.querySelector('.prev-btn');
 const nextBtn = document.querySelector('.next-btn');
@@ -37,7 +37,7 @@ prevBtn.addEventListener('click', prevSlide);
 /*/// Add setInterval function to move to the next slide every 5 seconds
 
 
-/** */
+/*
 
 
 
@@ -55,6 +55,8 @@ images[currentIndex].style.display = 'block';
 
 // Create a function to handle the next button click
 function next() {
+   // for(let i=0; i<images.length; i++)
+
     // Hide the current image
     images[currentIndex].style.display = 'none';
 

@@ -1,17 +1,17 @@
 body {
     background: url(./images/image.png);
 }
-.container {
+/*.container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
+}*/
 
 .main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 35%;
+    padding-bottom: 10%;
 }
 #m_img1 {
     width: 20%;
@@ -147,11 +147,30 @@ body {
     background-color: #1da618;
   }
 
-  
+  /*make slider s2*/
+ .test {
+    height: 30%;
+ }
+ .test2 {
+    padding-top: 5em;
+ }
+ footer {
+    padding-top: 2em;
+    font-size: 1.25rem;
+    font-weight: 300;
+    background-color: #000;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    bottom: 0;
+ }
   @media only screen and (max-width: 480px) {
     /* CSS styling for mobile devices goes here */
     .grid {
         display: flex;
         flex-direction: column;
+    }
+    .test {
+        height: 15%;
     }
 }
